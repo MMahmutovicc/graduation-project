@@ -1,0 +1,156 @@
+.register-box {
+    background: rgba(255, 255, 255, 0.41);
+    border: 1px solid #00549D;
+    box-shadow: 0px 10px 10px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 28px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.register-heading {
+    font-weight: 600;
+    color: #103556;
+    /* font-size: 2.5rem; */
+}
+
+.register-example-title {
+    font-weight: 600;
+    color: #103556;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.register-flex-example {
+    margin: 1rem 0 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-form_group {
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+.register-form_group label {
+    display: block;
+    font-size: 1.2rem;
+    color: #091B2C;
+}
+
+.register-form_group input:not([type="file"]),
+.register-form_group select {
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #B9B1B1;
+    height: 2.4rem;
+    font-size: 1.2rem;
+    
+}
+
+.register-form_group textarea {
+    width: 100%;
+    height: 8rem;
+    resize: vertical;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    min-height: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.register-form_group input:not([type="file"]):hover {
+    border: 2px solid #000;
+}
+
+.icon {
+    position: absolute;
+    padding: 10px 5px;
+    color: #000; 
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: 1;
+}
+
+.register-form_group input[id="password"],
+.register-form_group select {
+    width: 50%;
+}
+
+.register-form_group input[id="password"] {
+    padding-left: 30px;
+}
+
+.register-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-flex a {
+    text-decoration: none;
+}
+
+.gen-pass {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    color: white;
+    background: #35B94A;
+    border-radius: 23px;
+}
+
+.remove-example {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    color: white;
+    background: rgba(220, 53, 69, 1);
+    border-radius: 23px;
+}
+
+.register-description {
+    width: 100%;
+    
+}
+
+/* .register-submit {
+    margin: 1rem 0;
+    padding: 1rem 6rem;
+    font-size: 1.5rem;
+    color: white;
+    background: #3594CE;
+    border-radius: 23px;    
+} */
+
+.register-submit {
+    text-align: start;
+    margin: 1rem 0;
+}
+
+.register-submit button {
+    cursor: pointer;
+    background: #3594CE;
+    border-radius: 1.4rem;
+    border: #3594CE;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    margin: auto;
+}
+
+.all {
+    margin: 1rem auto;
+    text-align: start;
+    width: 48%;
+}
+
+.all-button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: white;
+    background: #0180CD;
+    border-radius: 87px;
+    text-decoration: none;
+}

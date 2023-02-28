@@ -1,0 +1,76 @@
+.profil-box {
+    margin: 0 auto;
+    width: 80%;
+    box-shadow: 0px 10px 16px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 89px;
+    text-align: center;
+    padding: 2rem 3rem;
+}
+
+.profil-box_image {
+    width: 20%;
+    border-radius: 50%;
+}
+
+#calendar {
+    max-width: 850px;
+    margin: 40px auto;
+}
+
+table {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+td[class="label"] {
+    color: #0180CD;
+    text-align: right;
+}
+
+td:not(.label) {
+    text-align: left;
+}
+
+.lekcije-progress {
+    margin-top: 2rem;
+}
+
+.lekcije-progress progress{
+    height: 2rem;
+    margin: 0 1rem;
+    width: 50%;
+}  
+
+.lekcije-progress_group {
+    margin-bottom: 1rem;
+}
+
+.lekcije-progress_group label[for^="lekcija"] {
+    color: #103556;
+    font-size: 2rem;
+    font-weight: 800;
+    vertical-align: bottom;
+}
+
+.lekcije-progress_group label:not([for^="lekcija"]) {
+    color: #A69D9D;
+    font-size: 1.5rem;
+    vertical-align: bottom;
+}
+
+.remove-student {
+    margin: 1.5rem auto;
+    text-align: center;
+}
+
+.remove-student-button {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    /* height: 2.5rem; */
+    /* width: 15%; */
+    padding: 0.8rem 3.2rem;
+    background: #F86565;
+    border-radius: 23px;
+    text-decoration: none;
+}

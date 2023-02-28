@@ -1,0 +1,236 @@
+.lekcija-box {
+    width: 90%;
+    border: 2px solid #CCCDCF;
+    box-shadow: 0px 10px 14px 19px rgba(16, 53, 86, 0.12);
+    border-radius: 82px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem 0;
+    margin-bottom: 3rem;
+}
+
+.lekcija-heading {
+    color: #103556;
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.primjer-heading {
+    color: #0369A7;
+    font-size: 2rem;
+    text-align: start;
+    margin-left: 3rem;
+}
+
+.primjer-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.primjer-body_img-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.primjer-body_img-container img{
+    width: 100%;
+    margin: 0;
+}
+
+.primjer-body_text {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.objasnjenje-heading {
+    text-align: start;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.objasnjenje-text {
+    background: rgba(213, 223, 228, 0.17);
+    border-radius: 47px;
+    padding: 0.5rem 1rem;
+    color: #103556;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.primjer-body_rjesenje {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background: #35B94A;
+    border-radius: 23px;
+}
+
+.rjesenje_hidden {
+    position: relative;
+    display: none;
+    font-weight: 800;
+    font-size: 1.2rem;
+    color: #103556;
+    border: 2px solid #35B94A;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 87px;
+    opacity: 0;
+    z-index: 9;
+    padding: 1rem 0.5rem;
+    line-height: 2rem;
+}
+
+.backdrop {
+    display: none;
+    position: fixed;
+    z-index: 8;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.1;
+}
+
+#primjer2-body {
+    display: block;
+}
+
+#img-container_2,
+#img-container_3{
+    width: 60%;
+}
+
+#img-container_2 img {
+    opacity: 0.6;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#img-container_2 img:hover {
+    opacity: 1;
+}
+
+.primjer2-title {
+    color: #103556;
+    font-weight: 800;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+}
+
+.primjer2-subtitle {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #103556;
+    font-weight: 500;
+}
+
+.primjer2-input {
+    height: 2rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    border: 2px solid #C8CFD5;
+    outline: none;
+}
+
+.correct {
+    background-color: rgba(53, 185, 74, 0.85);
+}
+
+.incorrect {
+    background-color: rgba(220, 53, 69, 0.85);
+}
+
+.primjer2-input:hover,
+.primjer2-input:focus {
+    border: 2px solid #091B2C;
+}
+
+.primjer2-btn {
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.4rem 0.9rem;
+    background: rgba(53, 185, 74, 0.85);
+    border-radius: 23px;
+}
+
+.bubble-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
+.bubble-body a {
+    text-decoration: none;
+}
+
+.bubble {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: #50A7DD;
+    cursor: pointer;
+    margin: 0;
+    color: white;
+    font-weight: 800;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.primjer-3-btn-div {
+    width: 100%;
+}
+
+.primjer3-btn {
+    margin: 1.5rem 0;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    background: rgba(53, 185, 74, 0.85);
+    border-radius: 23px;
+}
+
+.primjer-3-objasnjenje {
+    font-size: 1.2rem;
+    font-weight: 800;
+    width: 80%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 15px 13px rgba(0, 0, 0, 0.15);
+    border-radius: 87px;
+    line-height: 2rem;
+    padding: 2rem 1rem;
+    display: none;
+    margin: 1rem 0;
+}
+
+@keyframes otvori{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes zatvori {
+    from{opacity: 1;}
+    to{opacity: 0;}
+}
+
+.close {
+    animation-name: zatvori;
+    animation-duration: 0.5s;
+    opacity: 0;
+}
+
+.open {
+    animation-name: otvori;
+    animation-duration: 0.5s;
+    opacity: 1;
+}

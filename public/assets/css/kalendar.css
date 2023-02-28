@@ -1,0 +1,182 @@
+.backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    display: none;
+}
+
+.profil-box {
+  margin-bottom: 3rem;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 102;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid #00549D;
+    box-shadow: 0px 10px 10px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 28px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.calendar-form-header h2 {
+    color: #091B2C;
+}
+
+.calendar-form-group {
+    text-align: start;
+    margin-bottom: 1rem;
+}
+
+.calendar-form-group label {
+    display: block;
+    font-size: 1.2rem;
+    color: #091B2C;
+}
+
+.calendar-form-group input,
+.calendar-form-group select{
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #B9B1B1;
+    height: 2.4rem;
+    font-size: 1.2rem;
+}
+
+.calendar-form-group input:hover {
+    border: 2px solid #000;
+}
+
+.calendar-button {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.calendar-button button {
+    cursor: pointer;
+    background: #3594CE;
+    border-radius: 1.4rem;
+    border: #3594CE;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    margin: auto;
+}
+
+#calendar {
+    max-width: 1000px;
+    margin: 40px auto;
+  }
+  
+  /*
+  i wish this required CSS was better documented :(
+  https://github.com/FezVrasta/popper.js/issues/674
+  derived from this CSS on this page: https://popper.js.org/tooltip-examples.html
+  */
+  
+  .popper,
+  .tooltip {
+    position: absolute;
+    z-index: 9999;
+    background: #091B2C;
+    color: white;
+    width: 150px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
+    padding: 10px;
+    text-align: center;
+  }
+  .style5 .tooltip {
+    background: #1E252B;
+    color: #FFFFFF;
+    max-width: 200px;
+    width: auto;
+    font-size: .8rem;
+    padding: .5em 1em;
+  }
+  .popper .popper__arrow,
+  .tooltip .tooltip-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    margin: 5px;
+  }
+  
+  .tooltip .tooltip-arrow,
+  .popper .popper__arrow {
+    border-color: #091B2C;
+  }
+  .style5 .tooltip .tooltip-arrow {
+    border-color: #1E252B;
+  }
+  .popper[x-placement^="top"],
+  .tooltip[x-placement^="top"] {
+    margin-bottom: 5px;
+  }
+  .popper[x-placement^="top"] .popper__arrow,
+  .tooltip[x-placement^="top"] .tooltip-arrow {
+    border-width: 5px 5px 0 5px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    bottom: -5px;
+    left: calc(50% - 5px);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .popper[x-placement^="bottom"],
+  .tooltip[x-placement^="bottom"] {
+    margin-top: 5px;
+  }
+  .tooltip[x-placement^="bottom"] .tooltip-arrow,
+  .popper[x-placement^="bottom"] .popper__arrow {
+    border-width: 0 5px 5px 5px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    top: -5px;
+    left: calc(50% - 5px);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .tooltip[x-placement^="right"],
+  .popper[x-placement^="right"] {
+    margin-left: 5px;
+  }
+  .popper[x-placement^="right"] .popper__arrow,
+  .tooltip[x-placement^="right"] .tooltip-arrow {
+    border-width: 5px 5px 5px 0;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    left: -5px;
+    top: calc(50% - 5px);
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .popper[x-placement^="left"],
+  .tooltip[x-placement^="left"] {
+    margin-right: 5px;
+  }
+  .popper[x-placement^="left"] .popper__arrow,
+  .tooltip[x-placement^="left"] .tooltip-arrow {
+    border-width: 5px 0 5px 5px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    right: -5px;
+    top: calc(50% - 5px);
+    margin-left: 0;
+    margin-right: 0;
+  }
