@@ -1,0 +1,92 @@
+.posts {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 39px 4px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+
+.posts-form {
+    text-align: right;
+}
+
+.posts-form textarea {
+    width: 100%;
+    resize: vertical;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    border: 2px solid #C7C7C7;
+    min-height: 4rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.posts-form textarea:focus {
+    outline: none;
+}
+
+.posts-form textarea::placeholder {
+    color: #fff;
+}
+
+.posts-form textarea:hover::placeholder {
+    color: #c7c7c7;
+}
+
+.posts-form input {
+    margin-top: 1rem;
+    float: left;
+}
+
+.posts-form button {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    color: #fff;
+    background: #0180CD;
+    border-radius: 25px;
+    font-weight: 500;
+}
+
+.post-head {
+    font-size: 1.2rem;
+    color: #0180CD;
+    margin: 2rem 0 1rem 0;
+}
+
+.post-name {
+    color: #000;
+    font-weight: 600;
+}
+
+.post-time {
+    font-size: 0.8rem;
+}
+
+.post-delete {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+    color: red;
+}
+
+.post-body {
+    background: #FFFFFF;
+    border: 2px solid #C7C7C7;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.post-body:hover {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.post-files {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.post-files a {
+    text-decoration: none;
+}

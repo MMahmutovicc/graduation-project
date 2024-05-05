@@ -1,0 +1,94 @@
+.main-nav_item a {
+    padding-bottom: 1rem;
+}
+
+.login-footer {
+    padding: 0.25rem 2rem;
+    grid-area: footer;
+    /* left: 0px;
+    top: 0px; */
+    background: linear-gradient(272.97deg, #103556 35.91%, rgba(255, 255, 255, 0) 47.53%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.login-box {
+    width: 40%;
+    /* height: 37rem; */
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.41);
+    border: 1px solid #00549D;
+    box-shadow: 0px 10px 10px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 1.75rem;
+}
+
+.login-box h1 {
+    text-align: center;
+    color: #103556;
+    margin: 0.5rem;
+    font-weight: 600;
+}
+
+.login-image-box {
+    margin: 0 auto;
+    width: 5%;
+}
+
+.login-image-box img {
+    width: 100%;
+}
+
+.login-form_group{
+    margin: 2.6rem 0;
+}
+
+.login-form_group label {
+    color: #091B2C;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.login-form_group input[type="email"],
+.login-form_group input[type="password"] {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #B9B1B1;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.login-form_group input::placeholder {
+    color: #fff;
+}
+
+.login-form_group input:hover {
+    border: 1px solid #000000;
+}
+
+.login-form_group input:hover::placeholder {
+    color: rgba(0, 0, 0, 0.35);
+}
+
+.login-submit {
+    text-align: end;
+    margin-top: 3rem;
+}
+
+.login-submit a {
+    color: #103556;
+    text-decoration: underline;
+}
+
+.login-submit button {
+    cursor: pointer;
+    background: #3594CE;
+    border-radius: 1.4rem;
+    border: #3594CE;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    margin: auto;
+}
